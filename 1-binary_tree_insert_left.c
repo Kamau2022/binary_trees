@@ -18,7 +18,7 @@ if (node == NULL)
 {
 return (NULL);
 }
-if (parent == NULL)
+if (parent == NULL || value == '\0')
 {
 return (NULL);
 }
