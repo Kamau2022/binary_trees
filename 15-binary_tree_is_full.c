@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-*binary_tree_full - a function that finds whether a binary tree is full
+*binary_tree_is_full - a function that finds whether a binary tree is full
 *
 *@tree:a a pointer to the root node to check
 *
