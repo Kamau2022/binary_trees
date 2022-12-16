@@ -26,7 +26,10 @@ if (parent->left != NULL)
 {
 node->left = parent->left;
 node->left->parent = node;
+parent->left = node;
+return (node);
 }
+node->left = parent->left;
 parent->left = node;
 return (node);
 }
